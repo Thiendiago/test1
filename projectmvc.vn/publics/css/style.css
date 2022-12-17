@@ -1,0 +1,57 @@
+body {
+    font-size: 14px;
+    font-family: arial;
+    line-height: 23px;
+}
+.wrapper {
+    width: 960px;
+    margin: 0px auto;   
+}
+.header {
+    text-align: center;
+    position: relative;
+}
+#logo {
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    padding: 15px;
+}
+#userlogin {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.footer {
+    background: blue;
+}
+ul#main-menu {
+    text-align: center;
+    background: blue;
+}
+ul#main-menu li{
+    display: inline-block;
+}
+ul#main-menu li a{
+    padding: 8px 15px;
+    color: #fff;
+    display:block;
+}
+.content {
+    min-height: 600px;
+    padding:19px 0px;
+}
+.footer{
+    text-align: center;
+    color: #fff;
+    padding: 10px 0px;
+}
+.post-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+ul.list-post li{
+    padding: 20px 0px;
+    border-bottom: 1px dashed;
+}
